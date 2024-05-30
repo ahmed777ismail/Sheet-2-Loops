@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Even, Odd, Positive and Negative", "Even, Odd, Positive and Negative\Even, Odd, Positive and Negative.vcxproj", "{FD18673D-029D-4894-BF55-5287651E208B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD18673D-029D-4894-BF55-5287651E208B}.Debug|x64.ActiveCfg = Debug|x64
+		{FD18673D-029D-4894-BF55-5287651E208B}.Debug|x64.Build.0 = Debug|x64
+		{FD18673D-029D-4894-BF55-5287651E208B}.Debug|x86.ActiveCfg = Debug|Win32
+		{FD18673D-029D-4894-BF55-5287651E208B}.Debug|x86.Build.0 = Debug|Win32
+		{FD18673D-029D-4894-BF55-5287651E208B}.Release|x64.ActiveCfg = Release|x64
+		{FD18673D-029D-4894-BF55-5287651E208B}.Release|x64.Build.0 = Release|x64
+		{FD18673D-029D-4894-BF55-5287651E208B}.Release|x86.ActiveCfg = Release|Win32
+		{FD18673D-029D-4894-BF55-5287651E208B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEC35D61-3A35-4ACC-AF32-A9ED288A9C14}
+	EndGlobalSection
+EndGlobal
