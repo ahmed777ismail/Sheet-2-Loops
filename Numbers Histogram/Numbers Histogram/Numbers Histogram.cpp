@@ -1,29 +1,23 @@
 #include <iostream>
-using namespace std;
+#include <vector>
 
+int main() {
+    char S;
+    int N;
+    std::cin >> S >> N;
+    std::vector<int> numbers(N);
 
+    for(int i = 0; i < N; ++i) {
+        std::cin >> numbers[i];
+    }
 
-int main()
-{
-	char l;
-	cin >> l;
-	short Size;
-	cin >> Size;
-	
-	for (int i = 1; i <= Size; i++)
-	{
-		short n;
-		cin >> n;
+    for(int i = 0; i < N; ++i) {
+        for(int j = 0; j < numbers[i]; ++j) {
+            std::cout << S;
+        }
+        std::cout << std::endl;
+    }
 
-		for (int j = 0; j <= n; j++)
-		{
-			cout << l;
-		}
-		cout << endl;
-	}
-
-
-
-	return 0;
+    return 0;
 }
 
