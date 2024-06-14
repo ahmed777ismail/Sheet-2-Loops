@@ -1,26 +1,24 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
 using namespace std;
 
-int main() {
-	int t;
-	cin >> t;
-	for (int i = 1; i <= t; i++)
-	{
-		int x, y;
-		cin >> x >> y;
-		int minn = min(x, y);
-		int maxx = max(x, y);
-		int sum = 0;
+int sumOfOddNumbers(int x, int y) {
+    int sum = 0;
+    if (x > y) swap(x, y);
+    for (int i = x + 1; i < y; i++) {
+        if (i % 2 != 0) {
+            sum += i;
+        }
+    }
+    return sum;
+}
 
-		for (int j = minn + 1; j < maxx; j++)
-		{
-			if (j % 2 != 0)
-			{
-				sum += j;
-			}
-			cout << sum << endl;
-		}
-	}
-	return 0;
+int main() {
+    int T;
+    cin >> T;
+    while (T--) {
+        int X, Y;
+        cin >> X >> Y;
+        cout << sumOfOddNumbers(X, Y) << endl;
+    }
+    return 0;
 }
