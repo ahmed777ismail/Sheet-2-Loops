@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Convert To Decimal 2", "Convert To Decimal 2\Convert To Decimal 2.vcxproj", "{C35969F7-0508-49F2-9F3F-9F6C64203CC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C35969F7-0508-49F2-9F3F-9F6C64203CC5}.Debug|x64.ActiveCfg = Debug|x64
+		{C35969F7-0508-49F2-9F3F-9F6C64203CC5}.Debug|x64.Build.0 = Debug|x64
+		{C35969F7-0508-49F2-9F3F-9F6C64203CC5}.Debug|x86.ActiveCfg = Debug|Win32
+		{C35969F7-0508-49F2-9F3F-9F6C64203CC5}.Debug|x86.Build.0 = Debug|Win32
+		{C35969F7-0508-49F2-9F3F-9F6C64203CC5}.Release|x64.ActiveCfg = Release|x64
+		{C35969F7-0508-49F2-9F3F-9F6C64203CC5}.Release|x64.Build.0 = Release|x64
+		{C35969F7-0508-49F2-9F3F-9F6C64203CC5}.Release|x86.ActiveCfg = Release|Win32
+		{C35969F7-0508-49F2-9F3F-9F6C64203CC5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75C8B58D-140C-482A-8252-C5220B6AE744}
+	EndGlobalSection
+EndGlobal
